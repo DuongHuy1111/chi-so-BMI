@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Duong Quang Huy</title>
+</head>
+<body>
+<script>
+    let a = parseFloat(prompt('Weight'));
+    let b = parseFloat(prompt('Height'));
+    let c = a/(b*b);
+        if (c < 18.5) {
+            document.write("Underweight");
+        }else if (c < 25.0) {
+            document.write("Normal");
+        }else if (c < 30.0) {
+            document.write("Overweight");
+        }else {
+            document.write("Obese");
+        }
+</script>
+</body>
+</html>
